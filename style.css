@@ -1,0 +1,31 @@
+/*
+Instructions: 
+
+1. Position the .box div to relative.
+2. Try using a top and left value of 100px each.
+3. Try a negative left value (-100px).
+4. Replace your top with margin-top. What is the difference?
+4. Let’s try it with 120% width.
+*/
+
+.box {
+  position: relative;
+  top: 100px;
+  margin-top: 100px;
+  /* left: 100px; */
+  left: -100px;
+  width: 120%;
+}
+
+/* do not change the code below this line */
+.wrapper {
+  width: 600px;
+  margin: 20px auto;
+  border: 2px solid green;
+}
+.box {
+  margin: 5px;
+  background: papayawhip;
+  padding: 10px;
+  color: green;
+}
